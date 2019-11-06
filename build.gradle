@@ -41,3 +41,5 @@ dependencies {
 test {
     maxParallelForks = Runtime.runtime.availableProcessors()
 }
+
+gradle.startParameter.continueOnFailure = true
